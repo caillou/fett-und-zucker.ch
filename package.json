@@ -1,8 +1,8 @@
 {
-  "name": "My_Project_Here",
+  "name": "fett-und-zucker.ch",
   "version": "3.0.1",
   "private": true,
-  "description": "Description of project here",
+  "description": "Fett und Zucker",
   "scripts": {
     "setup": "yarn && yarn setup:env auto && yarn setup:db && yarn setup:packages",
     "setup:env": "node ./scripts/setup_env.js",
@@ -35,7 +35,7 @@
     "docker": "yarn --cwd ./docker",
     "docker-compose": "yarn --cwd ./docker compose"
   },
-  "author": "Benjie Gillam <code@benjiegillam.com>",
+  "author": "Pierre Spring <pierre.spring@caillou.ch>",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
     "abort-controller": "^3.0.0",

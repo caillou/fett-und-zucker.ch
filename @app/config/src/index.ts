@@ -1,13 +1,8 @@
-// @ts-ignore
-const packageJson = require("../../../package.json");
-
-// TODO: customise this with your own settings!
-
-export const fromEmail =
-  '"PostGraphile Starter" <no-reply@examples.graphile.org>';
-export const awsRegion = "us-east-1";
-export const projectName = packageJson.name.replace(/[-_]/g, " ");
+export const fromEmail = '"Fett und Zucker" <hello@fett-und-zucker.ch>';
+export const awsRegion = "eu-central-1";
+export const projectName = "Fett und Zucker";
 export const companyName = projectName; // For copyright ownership
 export const emailLegalText =
+  // TODO: decide on e-mail LEGAL_TEXT!
   // Envvar here so we can override on the demo website
-  process.env.LEGAL_TEXT || "<Insert legal email footer text here >";
+  process.env.LEGAL_TEXT || "";
